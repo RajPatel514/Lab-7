@@ -17,3 +17,10 @@ hoverMe.addEventListener('mouseenter', function () {
 hoverMe.addEventListener('mouseleave', function () {
     this.style.backgroundColor = 'transparent';
 });
+
+// Keypress Event
+
+document.addEventListener('keypress', function (event) {
+    console.log(`Character: ${event.charCode}`);
+    console.log(`Character pressed: ${String.fromCharCode(event.charCode)}`);
+});
