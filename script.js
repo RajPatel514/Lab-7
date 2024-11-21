@@ -34,3 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
     })
 });
 
+// Focus & Blur Event
+function handleFocus() {
+    document.getElementById('trip').style.background = 'lightgreen';
+}
