@@ -19,11 +19,18 @@ hoverMe.addEventListener('mouseleave', function () {
 });
 
 // Keypress Event
-
 document.addEventListener('keypress', function (event) {
     console.log(`Character: ${event.charCode}`);
     console.log(`Character pressed: ${String.fromCharCode(event.charCode)}`);
 });
 
 // Form Event
+document.addEventListener('DOMContentLoaded', function () {
+    const form = document.getElementById('formEvent');
+    form.addEventListener('submit', function (event) {
+        console.log('Form submitted');
+        event.preventDefault();
+        alert(`You would like to go to: ${trip.value}`);
+    })
+});
 
