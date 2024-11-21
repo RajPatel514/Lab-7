@@ -48,3 +48,12 @@ function handleBlur() {
     }
 }
 
+
+// Event Delegation - List items
+const list = document.getElementById('gamesList');
+list.addEventListener('click', function (event) {
+    if (event.target.tagName === 'LI') {
+        alert(event.target.textContent + ', Great choice!');
+        event.target.style.backgroundColor = 'aquamarine';
+    }
+});
