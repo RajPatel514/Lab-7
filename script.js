@@ -38,3 +38,11 @@ document.addEventListener('DOMContentLoaded', function () {
 function handleFocus() {
     document.getElementById('trip').style.background = 'lightgreen';
 }
+
+const tripInput = document.getElementById('trip');
+function handleBlur() {
+    document.getElementById('trip').style.background = 'pink';
+    if (tripInput.value === '') {
+        tripInput.placeholder = 'Field cannot be left blank';
+    }
+}
