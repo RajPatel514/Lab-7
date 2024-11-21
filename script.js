@@ -24,3 +24,6 @@ document.addEventListener('keypress', function (event) {
     console.log(`Character: ${event.charCode}`);
     console.log(`Character pressed: ${String.fromCharCode(event.charCode)}`);
 });
+
+// Form Event
+
