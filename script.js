@@ -34,11 +34,12 @@ document.addEventListener('DOMContentLoaded', function () {
     })
 });
 
-// Focus & Blur Event
+// Focus Event
 function handleFocus() {
     document.getElementById('trip').style.background = 'lightgreen';
 }
 
+// Blur Event
 const tripInput = document.getElementById('trip');
 function handleBlur() {
     document.getElementById('trip').style.background = 'pink';
@@ -46,3 +47,4 @@ function handleBlur() {
         tripInput.placeholder = 'Field cannot be left blank';
     }
 }
+
