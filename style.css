@@ -5,9 +5,17 @@ body {
   flex-direction: column;
   font-family: Times New Roman, Times, serif;
   text-align: center;
-  width: 50%;
+  width: 45%;
   background-image: linear-gradient(rgb(136, 57, 136), white);
   background-attachment: fixed;
+}
+
+body * {
+  visibility: hidden;
+}
+
+body:hover * {
+  visibility: visible;
 }
 
 h1 {
