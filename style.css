@@ -1,13 +1,26 @@
 body {
-  background-color: #d5fed7;
+  margin: auto;
   display: flex;
   flex-direction: column;
   font-family: Times New Roman, Times, serif;
-  line-height: 1.6;
   padding: 0;
   text-align: center;
+  width: 50%;
+  background-image: linear-gradient(rgb(136, 57, 136), white);
+  background-attachment: fixed;
 }
 
 h1 {
   margin-bottom: 1px;
+}
+
+h3 {
+  color: rgb(27, 27, 47);
+}
+
+button {
+  background-color: rgb(219, 189, 247);
+  color: rgb(0, 0, 0);
+  width: 100%;
+  cursor: crosshair;
 }
