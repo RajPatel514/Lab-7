@@ -29,13 +29,21 @@ button {
   color: rgb(0, 0, 0);
   width: 100%;
   cursor: crosshair;
+  transition-delay: 10ms;
 }
 
 button:hover {
+  transform: scale(1.5);
   background-color: rgb(215, 253, 253);
 }
 
 ul {
   display: contents;
   list-style: none;
+}
+
+ul li:hover {
+  transform: scale(1.5);
+  background-color: rgb(215, 253, 253);
+  cursor: pointer;
 }
