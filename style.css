@@ -1,0 +1,13 @@
+body {
+  background-color: #d5fed7;
+  display: flex;
+  flex-direction: column;
+  font-family: Times New Roman, Times, serif;
+  line-height: 1.6;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1px;
+}
